@@ -1,0 +1,21 @@
+.row{
+    padding: 10px;
+}
+div{
+    text-align: center;
+}
+#perfil{
+    width: 75%;
+    display: flex;
+    border-radius: 100%;
+    margin: auto;
+}
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
+span,p{
+    color: aliceblue;
+}

@@ -1,0 +1,36 @@
+
+<h4 class="texto">aqui puedes seguirme en mis redes sociales :D</h4>
+
+  <input type="hidden" #selection>
+
+  <div class="card-container">
+    <button class="card card-small"  (click)="selection.value = 'facebook'" tabindex="0">
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+      <span>facebook</span>
+    </button>
+
+    <button class="card card-small" (click)="selection.value = 'instagram'" tabindex="0">
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+      <span>instagram</span>
+    </button>
+
+    <button class="card card-small" (click)="selection.value = 'twitter'" tabindex="0">
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+      <span>twitter</span>
+    </button>
+
+    <button class="card card-small" (click)="selection.value = 'discord'" tabindex="0">
+      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+      <span>discord</span>
+    </button>
+    
+  </div>
+
+  <!-- Terminal -->
+  <div class="terminal" style="margin: 1cm;" [ngSwitch]="selection.value">
+      <pre *ngSwitchCase="'instagram'"><a href="https://instagram.com/dachseven?igshid=YmMyMTA2M2Y=">@dachseven</a></pre>
+      <pre *ngSwitchCase="'facebook'"><a href="https://www.facebook.com/agustin.oviedo.581">agustin oviedo</a></pre>
+      <pre *ngSwitchCase="'twitter'"><a href="https://twitter.com/dachseven7">@dachseven7</a></pre>
+      <pre *ngSwitchCase="'discord'">dachseven#4897</pre>
+      
+  </div>

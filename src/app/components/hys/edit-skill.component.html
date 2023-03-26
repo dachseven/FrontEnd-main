@@ -1,0 +1,26 @@
+
+
+
+
+
+<div class="loginBox"> 
+<h3>nueva experiencia</h3>
+<form (ngSubmit)="onUpdate()"  novalidate #f="ngForm">
+    <div class="inputBox">
+        <div>
+        <input id="nombreUsuario" type="text" name="Username" placeholder="nombre" 
+        [(ngModel)]="skill.nombre" required>
+        
+        </div>
+        <div>
+        <input id="password" type="text" name="descripcioneE" placeholder="porcentaje" [(ngModel)]="skill.porcentaje" required >
+        </div>
+    
+    </div>
+    <button class= "btn btn-outline-light btn-lg px-s" type="submit">Enviar</button>
+    
+   
+</form>
+
+
+</div>
