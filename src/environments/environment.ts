@@ -5,7 +5,7 @@
 export const environment = {
 
   production: false,
-  URL: 'portfolio-dachseven.koyeb.app/'
+  URL: 'https://portfolio-dachseven.koyeb.app/'
 };
 
 /*

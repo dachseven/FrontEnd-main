@@ -11,7 +11,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  authURL = 'https://backend-dach.herokuapp.com/auth/';
+  authURL = 'https://portfolio-dachseven.koyeb.app/auth/';
 
   URL = environment.URL + 'auth/';
 
