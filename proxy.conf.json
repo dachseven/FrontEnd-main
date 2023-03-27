@@ -1,0 +1,8 @@
+{
+    "/apidemo/*":{
+        "target":"https://portfolio-dachseven.koyeb.app/",
+        "secure":true,
+        "lgLevel":"debug",
+        "changeOrigin":true
+    }
+}

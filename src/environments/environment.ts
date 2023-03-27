@@ -4,7 +4,7 @@
 
 export const environment = {
 
-  production: false,
+  production: true,
   URL: 'https://portfolio-dachseven.koyeb.app/'
 };
 
