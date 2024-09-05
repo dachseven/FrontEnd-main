@@ -3,9 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-
   production: true,
-  URL: 'portfolio-dachseven.koyeb.app/'
+  URL: 'https://back-end-main-chi.vercel.app/',
 };
 
 /*
